@@ -43,25 +43,12 @@ The project uses the German Credit Dataset, which contains information on 1000 l
 ## Results
 The performance metrics for each model are as follows:
 
-1. Linear Regression (Checking = 1 or 2):
-   - AUC: 0.634
-   - Gini Coefficient: 0.269
-   - KS: 0.229
-
-2. Logistic Regression (Checking = 1 or 2):
-   - AUC: 0.629
-   - Gini Coefficient: 0.258
-   - KS: 0.228
-
-3. Linear Regression (Checking = 3 or 4):
-   - AUC: 0.645
-   - Gini Coefficient: 0.290
-   - KS: 0.325
-
-4. Logistic Regression (Checking = 3 or 4):
-   - AUC: 0.645
-   - Gini Coefficient: 0.289
-   - KS: 0.314
+| Model | Dataset | AUC | Gini Coefficient | KS Value |
+|-------|---------|-----|------------------|----------|
+| Linear Regression | Checking = 1 or 2 | 0.634 | 0.269 | 0.229 |
+| Logistic Regression | Checking = 1 or 2 | 0.629 | 0.258 | 0.228 |
+| Linear Regression | Checking = 3 or 4 | 0.645 | 0.290 | 0.325 |
+| Logistic Regression | Checking = 3 or 4 | 0.645 | 0.289 | 0.314 |
 
 The models show moderate discriminative power, with slightly better performance for the Checking = 3 or 4 subset. The linear and logistic regression models perform similarly within each subset.
 
@@ -83,10 +70,7 @@ The models show moderate discriminative power, with slightly better performance 
 - Development of a more comprehensive credit scoring system
 
 ## Contributors
-- [Your Name]
-
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+- Eshaq Rahmani
 
 ## Acknowledgments
 - The creators and maintainers of the German Credit Dataset
