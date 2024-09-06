@@ -53,16 +53,13 @@ The performance metrics for each model are as follows:
 The models show moderate discriminative power, with slightly better performance for the Checking = 3 or 4 subset. The linear and logistic regression models perform similarly within each subset.
 
 ## Repository Structure
-- `data/`: Contains the dataset and data preparation scripts
-- `notebooks/`: Jupyter notebooks for data analysis and model implementation
-- `src/`: Source code for model implementations and utilities
-- `results/`: Output files, figures, and detailed result analysis
-- `requirements.txt`: List of required Python packages
+- `data/`: Contains the dataset
+- `code/`: Jupyter notebook for data analysis and model implementation
+- `report/`: Full report
 
 ## Usage
 1. Clone the repository
-2. Install the required packages: `pip install -r requirements.txt`
-3. Run the Jupyter notebooks in the `notebooks/` directory for step-by-step analysis and model implementation
+2. Run the Jupyter notebooks in the `code/` directory for step-by-step analysis and model implementation
 
 ## Future Work
 - Exploration of more advanced machine learning techniques
